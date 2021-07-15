@@ -1,8 +1,13 @@
 body {
+ text-align: left;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 17px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  text-align: right;
+  color: #ff0800;
+  padding: 17px;
+  font-size: 20px;
 }
+
