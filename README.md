@@ -1,4 +1,6 @@
-Mooks Surf App is a full stack express app that allows users to log surfsopts and record indivisual surf sessions at those spots. 
+Welcome to Mook's SurfApp
+
+Mooks SurfApp is a full stack express app that allows users to log surfsopts and record indivisual surf sessions at those spots. 
 
 For this project I used the Express framework with node.js mongoDb, Mongoose, JavaScript, HTML, and EJS 
 
