@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <title><%= title %></title>
+</head>
+<body>
+  <nav>
+    <img src="/images/camera.svg">
+    <a href="/surfSpots/new" <%- title === 'Add Surf Spot' ? 'class="active"' : '' %>>ADD SURF SPOT</a>
+    <a href="/surfSpots" <%- title === 'All Surf Spots' ? 'class="active"' : '' %>>ALL SURF SPOTS</a>
+  </nav>
+  <main>
+    <h1><%= title %></h1>
